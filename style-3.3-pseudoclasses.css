@@ -1,0 +1,29 @@
+div:hover {
+    border: 3px solid black
+}
+div:first-of-type {
+    background: #FB5607;
+    font-size: 20px;
+}
+div:nth-of-type(2){
+    background: #8338EC;
+    font-size: 40px
+}
+div:nth-of-type(3){
+    background: #f07167;
+    font-size: 60px;
+    padding: 80px 0px;
+}
+
+div:nth-of-type(4){
+    background: #3A86FF;
+    font-size: 80px
+}
+div:last-of-type {
+    background: #FF006E;
+    font-size: 100px
+}
+
+div:nth-of-type(odd) {
+    font-style: italic;
+}
